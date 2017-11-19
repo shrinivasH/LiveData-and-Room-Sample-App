@@ -57,4 +57,9 @@ public class ListViewAdapter extends RecyclerView.Adapter<ListViewAdapter.MovieH
 
         }
     }
+
+    public void setUserList(List<UserInfo> userInfos) {
+        this.userInfos.clear();
+        this.userInfos.addAll(userInfos);
+    }
 }
