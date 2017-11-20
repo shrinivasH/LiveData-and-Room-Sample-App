@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:hint="User Name"
+        android:hint="@string/user_name_hint"
         android:padding="4dp" />
 
     <EditText
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:hint="User email"
+        android:hint="@string/email_id_hint"
         android:padding="4dp" />
 
     <Button
@@ -30,12 +30,14 @@
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:padding="4dp"
-        android:text="Submit" />
+        android:text="@string/submit_btn" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:orientation="vertical">
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/userRecycler"
             android:layout_width="match_parent"

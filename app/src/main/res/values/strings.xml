@@ -3,4 +3,7 @@
     <string name="user_name_err">Please enter user name</string>
     <string name="email_id_err">Please enter your emailid</string>
     <string name="invalid_email_id">Invalid email id</string>
+    <string name="user_name_hint">User name</string>
+    <string name="email_id_hint">Email id</string>
+    <string name="submit_btn">Submit</string>
 </resources>
